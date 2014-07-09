@@ -1,0 +1,11 @@
+public class InputData{
+	public static void main(String[] args){
+		//声明一个Scanner类型的变量：Scanner属于引用数据类型
+		Scanner sc;
+		//初始化变量sc
+		sc = new Scanner(System.in)
+		//接收用户输入一个整数
+		sc.netxInt();
+		System.out.pritln(game over);
+	}
+}

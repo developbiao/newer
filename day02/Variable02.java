@@ -3,6 +3,6 @@ public class Variable03{
 		//声明一个int类型名为socre的变量
 		int socre;
 		//输出变量
-		System.out.println(socre);  //没有初始化没有初始化
+		System.out.println(socre);  //没有初始化没有初始化init
 	}
 }

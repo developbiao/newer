@@ -1,4 +1,10 @@
-public class Person{
+/*
+@Describe:对象数组的引用
+@Date:2014/07/09
+@Author:GongBiao
+*/
+
+ class Person{
 	//年龄
 	public int age;
 	//身高
@@ -9,6 +15,7 @@ public class Person{
 	}
 }
 
+//主类的是public文件名必须和文件名相同
 public class RefrenceArrayTest{
 	public static void main(String[] args){
 		//定义一个Studnets数组量，其类型是Person[]
