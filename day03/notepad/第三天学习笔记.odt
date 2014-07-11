@@ -82,11 +82,13 @@ switch(表达式){
 
 三、在Linux下把GBK的文件批量转换成UTF-8脚本
 
-find ./ -type f -exec iconv - GBK -t UTF-8 {} -o ./{} \;
+find ./ -type f -exec iconv -f GBK -t UTF-8 {} -o ./{} \;
 
  单个文件转换
 
 $ iconv -f GBK -t UTF-8 file1 -o file2
+
+
 
 
 

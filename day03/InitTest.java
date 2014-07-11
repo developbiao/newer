@@ -15,11 +15,12 @@ class Cat{
 	}
 	{
 		System.out.println("执行非静态初始化块");
+		weight = 2.0;
 	}
 	//定义时指定初始值
 	double weight = 2.3;
 	public String toString(){
-		return "Cat[name=" + name + ",age=" + age + ",weight" + "]"; 
+		return "Cat[name=" + name + ",age=" + age + ",weight=" +  weight +"]"; 
 	}
 }
 public class InitTest{
