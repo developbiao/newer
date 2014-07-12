@@ -13,12 +13,13 @@ public class CheckCode{
 		int count = 0;
 
 		while(true){
-			int code = rand.nextInt(122) + 1;   //这是有个问题
+			int code = rand.nextInt(122 - 48 + 1) + 48;   //这是有个问题
+			//int code = rand.nextInt(122) + 1;
 			if((code >= 58 && code <= 64 )|| (code >=91 && code <= 96)){
 				continue;
 
 			}else{
-				System.out.println(code);
+				System.out.print((char)code);
 				count++;
 				if(count >= 6){
 					break;
